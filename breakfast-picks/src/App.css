@@ -28,13 +28,13 @@ h1 {
 #menuToggle:checked + .menuButton > span::before {
   top: 0;
   transform: rotate(0deg);
-  background-color: #ffd700; /* Yellow "x" color */
+  background-color: #131212; /* Dark "x" color */
 }
 
 #menuToggle:checked + .menuButton > span::after {
   top: 0;
   transform: rotate(90deg);
-  background-color: #ffd700; /* Yellow "x" color */
+  background-color: #131212; /* Dark "x" color */
 }
 
 #menuToggle:checked ~ .menuBox {
@@ -97,11 +97,12 @@ h1 {
 .breakfastItem {
   display: block;
   padding: 12px 24px;
-  color: #fef7f6;
+  color: #131212; /* Dark text color for menu items */
   font-size: 24px;
   font-weight: 500;
   text-decoration: none;
   transition-duration: 0.25s;
+  background-color: #ffd700; /* Solid yellow background for menu items */
 }
 
 .breakfastItem:hover {
